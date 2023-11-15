@@ -94,9 +94,10 @@ form {
 form label {
   display: block;
   margin-bottom: 5px;
+}
+#contact form label{
   color: #000;
 }
-
 form input[type="text"],
 form input[type="email"],
 form textarea {

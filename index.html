@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h3 class="mt-5 ml-5">Portfolio page</h3>
+  <section id="about">
+    <div class="row">
+      <div class="col-md-6 about-image">
+        <img src="profile-image.png" class="img-fluid w-3 h-4">
+        <div class="title_info text-center">
+          <strong>Hasow Ibrahim</strong>
+          <p>Software Engineer (Mr.)</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 amout_message">
+        <h1>About Me</h1>
+        <p>I am Hasow Ibrahim, a software engineer with several years of experience in web development. I have worked
+          with companies like Mursal Techs Ltd, CESDO, World Vision, and Fastatechs Ltd. During my career, I have
+          developed a wide range of websites,web applications, enterprise systems and gained expertise in various
+          technologies.</p>
+        <a class="bn47 mt-5" href="mailto:herssow01@gmail.com">Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="project">
+      <h2>Online Marketplace</h2>
+      <p>Developed an online marketplace where users can buy and sell products in various categories. Implemented user
+        authentication, product listing, search functionality, and secure payment processing.</p>
+    </div>
+    <div class="project">
+      <h2>Weather App</h2>
+      <p>Created a weather application that provides real-time weather information based on the user's location.
+        Integrated with an external weather API to fetch and display weather data.</p>
+    </div>
+    <div class="project">
+      <h2>E-Learning Platform</h2>
+      <p>Built an e-learning platform for online education. Included features such as course management, user
+        enrollment, progress tracking, and interactive learning materials.</p>
+    </div>
+    <div class="project">
+      <h2>Task Management System</h2>
+      <p>Designed and developed a task management system to help teams organize and track their projects. Implemented
+        task assignment, status updates, and notifications.</p>
+    </div>
+    <div class="project">
+      <h2>Real Estate Listing Website</h2>
+      <p>Developed a real estate listing website where users can browse and search for properties. Implemented advanced
+        search filters, property details, andcontact forms for inquiries.</p>
+    </div>
+    <div class="project">
+      <h2>Food Delivery App</h2>
+      <p>Created a food delivery app that allows users to order food from local restaurants. Implemented user
+        registration, menu browsing, order tracking, and payment integration.</p>
+    </div>
+  </section>
+
+
+  <section id="request">
+    <h1>Request a Service</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="category">Category:</label>
+      <select id="category" name="category" required>
+        <option value="">Select a category</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Mobile App Development">Mobile App Development</option>
+        <option value="UI/UX Design">UI/UX Design</option>
+        <option value="Database Management">Database Management</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit Request">
+    </form>
+  </section>
+  <section id="contact">
+    <h1>Contact Me</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2023 Hasow Ibrahim</p>
+  </footer>
+</body>
+
+</html>
